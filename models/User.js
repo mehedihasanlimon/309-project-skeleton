@@ -137,3 +137,4 @@ UserSchema.methods.authenticate = function(password) {
 
 var User = mongoose.model('User', UserSchema, 'users');
 module.exports = User;
+
