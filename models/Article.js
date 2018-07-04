@@ -16,6 +16,12 @@ var ArticleSchema = {
     required: 'Summary required'
 
   },
+  rating:{
+  type:Number,
+  default: '',
+  required:'rating required'
+  },
+  
   author: {
     type: String,
     default: '',
